@@ -1,8 +1,8 @@
 <template>
-    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin-top:18px;">
-      <div class="testimonial" v-for="(t,i) in testimonials" :key="i">
+    <div class="flex flex-row flex-wrap gap-3 pt-5">
+      <div class="mx-auto flex-col max-w-sm max-h-sm items-center justify-items-stretch gap-y-4 rounded-xl p-6 shadow-lg outline outline-black/5" v-for="(t,i) in testimonials" :key="i">
         <p>"{{ t.quote }}"</p>
-        <div style="margin-top:8px; font-weight:600;">{{ t.author }}</div>
+        <div class="font-semibold pt-5" >{{ t.author }}</div>
       </div>
     </div>
   </template>
