@@ -17,7 +17,7 @@ background-image: linear-gradient(70deg, #ff6ec4, #7873f5 45%, #1fd1f9);
 background-clip: text;
 
 }
-.footer{ padding:36px 0; text-align:center; color:var(--muted); }
+.footer{ color:var(--muted); }
 .btn{ 
     display:inline-block;
     padding:10px 16px;
