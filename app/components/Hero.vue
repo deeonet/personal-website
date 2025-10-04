@@ -1,7 +1,7 @@
 <template>
     <div>
       <div style="flex:1">
-        <div class="h-svh flex items-center" >
+        <div class="h-screen flex items-center" >
           <h1 class="text-5xl md:text-8xl font-medium">Hello, I'm<br/><span class="heading-gradient text-8xl lg:text-[13rem] md:text-[12rem]">Oludayo</span></h1>
         </div>
         <div class="text-[#160042bf] max-w-0.9 text-left md:text-3xl lg:text-4xl text-md font-normal">

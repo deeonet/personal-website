@@ -1,7 +1,7 @@
 <template>
-    <main class="p-3 md:px-10 w-screen mx-0 my-auto max-w-0.8">
+    <main class="px-3 lg:px-[10rem] lg:px-[5rem] py-5 w-screen flex justify-between flex-col min-h-screen">
         <Header />
-      <section class="my-auto mx-0 p-5 flex items-center gap-4 md:tracking-medium">
+      <section class="my-auto mx-auto p-5 flex items-center gap-4 md:tracking-medium">
         <Hero />
       </section>
   
